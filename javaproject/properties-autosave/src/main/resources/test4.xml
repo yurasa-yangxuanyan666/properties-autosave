@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <students>
-    <stduent>
+    <stduent type="usa" color="black">
         <id>1</id>
         <name>kobe</name>
         <age>38</age>
     </stduent>
-    <stduent>
+    <stduent type="china" color="yellow">
         <id>2</id>
-        <name>curry</name>
+        <name>郭艾伦</name>
         <age>30</age>
     </stduent>
 </students>

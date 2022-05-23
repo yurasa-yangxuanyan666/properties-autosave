@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student id="1" type="aa">
+        <name>a</name>
+        <age>11</age>
+    </student>
+    <student id="2" type="bb">
+        <name>b</name>
+        <age>12</age>
+    </student>
+    <student id="3" type="cc">
+        <name>c</name>
+        <age>13</age>
+    </student>
+    <beast id="4">
+        <name>d</name>
+        <age>51</age>
+    </beast>
+    <beast id="5">
+        <name>e</name>
+        <age>55</age>
+    </beast>
+</students>
