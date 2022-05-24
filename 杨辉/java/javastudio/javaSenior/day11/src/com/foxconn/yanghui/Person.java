@@ -2,7 +2,7 @@ package com.foxconn.yanghui;
 
 public class Person {
     private int age;
-    private String name;
+    public String name;
 
     public Person() {
     }
@@ -19,7 +19,15 @@ public class Person {
         return name;
     }
 
-    public void setName(String name) {
+    @Override
+    public String toString() {
+        return "Person{" +
+                "age=" + age +
+                ", name='" + name + '\'' +
+                '}';
+    }
+
+    private void setName(String name) {
         this.name = name;
     }
 
@@ -27,5 +35,11 @@ public class Person {
         this.age = age;
         this.name = name;
     }
-
+    public void show(){
+        System.out.println("你好，我是人");
+    }
+    private String showsNation(String nation){
+        System.out.println("我的国籍是："+nation);
+        return nation;
+    }
 }
